@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+h2{
+	text-align:center;
+	position:relative;
+	top:100px;
+	}
+.residencia{
+	color:#000;
+	position:relative;
+	top:100px;
+	left:5%;
+	width:40%;
+}
+#gc{
+	border:none;
+	cursor:pointer;
+	background-color:#F93;
+	transition: .2s all ease-in-out;
+	height:40px;
+	border-radius:8px;
+}
+#gc:hover{
+	background-color:#F60;
+}
+CSS Document */

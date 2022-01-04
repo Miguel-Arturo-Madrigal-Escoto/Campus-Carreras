@@ -1,0 +1,45 @@
+.titulo{
+  text-align: center;
+}
+.titulo h2{
+  color: #f63;
+}
+
+.titulo{
+	position:relative;
+	top:60px;
+}
+.formulario{
+  position: relative;
+  top:50px;
+  left: 5%;
+}
+.formulario p{
+  color: black;
+}
+#agregar-btn{
+  transition: .2s all ease-in-out;
+  background: #f93;
+  padding: 9px;
+  width: 10%;
+  color: black;
+  border: none;
+  border-radius: 7px;
+}
+#agregar-btn:hover{
+  background-color: #f63;
+}
+select[name="calendario"], select[name="carrera"]{
+  color: black;
+}
+input[type="text"]{
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: 40%;
+}
+
+d{
+	color:#000;
+}
+#select{
+	height:30px;
+}

@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+h3{
+	text-align:center;
+	margin-top:80px;
+	}
+h4{
+	margin-left:8%;
+	position:relative;
+	top:40px;
+	color:#0C0;
+	}
+.formulario{
+	color:#000;
+	position:relative;
+	top:60px;
+	left:5%;
+	width:40%;
+}
+#gc{
+	border:none;
+	cursor:pointer;
+	background-color:#F93;
+	transition: .2s all ease-in-out;
+	height:40px;
+	width:100px;
+	border-radius:8px;
+}
+#gc:hover{
+	background-color:#F60;
+}
+b{
+	margin-left:6%;
+	cursor:default;
+	justify-content:center;
+	color:#000;
+}

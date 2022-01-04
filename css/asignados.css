@@ -1,0 +1,48 @@
+.table{
+  border: none;
+  color: #000;
+  max-width: 90%;
+  left: 5%;
+  top:130px;
+  position: relative;
+}
+.titulo{
+  text-align: center;
+  position: relative;
+  top:100px;
+}
+
+h2{
+  color: #F63;
+}
+input[name="eliminarAsignacion"]{
+  border: none;
+  background: transparent;
+}
+.icon-trash{
+  position: relative;
+  left: 22%;
+  cursor: pointer;
+  transition: .2s all ease-in-out;
+}
+input[name="eliminarAsignacion"]:hover, .icon-trash:hover{
+  color: #f00;
+}
+/*estilos barra de busqueda*/
+#caja_busqueda{
+	width: 40%;
+
+	border: 1px solid rgba(0,0,0,.5);
+}
+.form-busqueda{
+	position: relative;
+	left: 3%;
+  top:130px;
+}
+.icon-search{
+	color: #000;
+}
+
+tr{
+	text-align:center;
+}

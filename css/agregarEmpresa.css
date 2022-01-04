@@ -1,0 +1,36 @@
+body{
+  color: black;
+}
+input[type="text"], input[type="email"]{
+  width: 40%;
+  position: relative;
+  left:5%;
+}
+.formulario p{
+  position: relative;
+  left: 5%;
+}
+input[value="Agregar"]{
+  position: relative;
+  left: 5%;
+  transition: .2s all ease-in-out;
+  background: #f93;
+  padding: 9px;
+  width: 10%;
+  color: black;
+  border: none;
+  border-radius: 7px;
+}
+input[value="Agregar"]:hover{
+  background-color: #f63;
+}
+h2{
+  position: relative;
+  top:100px;
+  text-align: center;
+  color: #f63;
+}
+.formulario{
+  position: relative;
+  top:125px;
+}

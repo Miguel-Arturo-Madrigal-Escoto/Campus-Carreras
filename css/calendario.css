@@ -1,0 +1,232 @@
+.cld-main{
+    width: 100%;
+  }
+  .cld-main a{
+    color: #F93;
+  }
+  .cld-main svg{
+    fill: #F93;
+  }
+  .cld-datetime{
+    position: relative;
+    width: 66%;
+    min-width: 100px;
+    max-width: 300px;
+    margin: auto;
+    overflow: hidden;
+	position:relative;
+	bottom:40px;
+  }
+  .cld-datetime .today{
+    position: relative;
+    float: left;
+    width: calc(100% - 40px);
+    margin: auto;
+    text-align: center;
+  }
+    .cld-nav{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+  }
+  .cld-nav:hover{
+    cursor: pointer;
+  }
+  .cld-nav:hover svg{
+    fill: rgb(76, 118, 196);
+  }
+  .cld-rwd{
+    float: left;
+  }
+  .cld-fwd{
+    float: right;
+  }
+  .cld-nav svg:hover{
+
+  }
+  .cld-labels, .cld-days{
+    padding-left: 0;
+  }
+  .cld-label, .cld-day{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 14.28%;
+    text-align: center;
+  }
+  .cld-day{
+    margin: 0;
+    padding: 10px;
+    height: 70px;
+    border: 1px solid #ddd;
+
+  }
+   .cld-day.today .cld-number{
+    background:#F93;
+    color: #fff;
+    border-radius: 10px;
+  }
+  .cld-day.disableDay{
+    opacity: 0.5;
+  }
+  .cld-day.nextMonth, .cld-day.prevMonth{
+    opacity: 0.33;
+  }
+  .cld-number{
+    position: relative;
+    margin: 0;
+    padding: 10px;
+  }
+  .cld-title{
+    position: absolute;
+    z-index: 5;
+    display: none;
+    top: 35px;
+    left: 0;
+    padding: 5px 10px;
+    background: #fff;
+    white-space: nowrap;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+  .cld-number:hover .cld-title{
+    display: block;
+  }
+  .cld-title::before{
+    content: '';
+    position: absolute;
+    top: -7.5px; left: 10px;
+    width: 0;
+    height: 0;
+    border-left: 7.5px solid transparent;
+    border-right: 7.5px solid transparent;
+
+    border-bottom: 7.5px solid #ccc;
+    font-size: 10px;
+  }
+  .cld-number.eventday{
+    font-weight: bold;
+    font-size: 23px;
+    color: #F93;
+  }
+  .cld-number.eventday:hover{
+    cursor: pointer;
+    background: #eee;
+  }
+  .today .cld-number.eventday:hover{
+    background:#F93;
+  }
+  .contenedor{
+	  margin-left:20%;
+	  margin-right:20%;
+  }
+
+  .agregarF{
+	  margin-top: 18%;
+	  text-align:center;
+	  color:#090;
+  }
+   .modificarF{
+	  margin-top: 7%;
+	  text-align:center;
+	  position:relative;
+	  color:#090;
+  }
+  .agregarFech{
+	  color:#000;
+	  position:relative;
+	  left:5%;
+	  width:40%;
+  }
+
+  th{
+	  text-align:center;
+  }
+
+  .table{
+	  position:relative;
+	  max-width: 90%;
+	  left:5%;
+
+  }
+
+  .columnaF{
+	  width:10%;
+  }
+
+  .columnaL{
+	  width:15%;
+  }
+  .columnaT{
+	  width:45%;
+  }
+
+  .nothing{
+	width:20%;
+  }
+
+  td{
+	  text-align:center;
+  }
+
+  @media screen and (max-width: 600px){
+	  input[type="text"]{
+		  width:200%;
+		  }
+	  .table{
+		  width:90%;
+		  font-size: 13px;
+	  }
+
+	  .columnaL{
+		  display:none;
+	  }
+
+	  .filaL{
+		  display:none;
+	 }
+	 h2{
+		 position:relative;
+		 top:75px;
+		 font-size:32px;
+}
+	.contenedor{
+	position:relative;
+	top:125px;
+}
+	.agregarFech{
+		position:relative;
+		top:100px;
+}
+h3{
+	position:relative;
+	top:85px;
+  }
+  }
+.botones{
+	background-color:#F93;
+	border:none;
+	border-radius:8px;
+	height:40px;
+	transition: .2s all ease-in-out;
+}
+.botones:hover{
+	background:#F60;
+}
+.table{
+		color:#000;
+  		width: 90%;
+  		text-align: center;
+  		border-collapse: collapse;
+		box-shadow: 1px #000000;
+
+}
+.icon-edit:hover{
+	color:#06C;
+	transition: .2s all ease-in-out;
+}
+.icon-trash:hover{
+	color:#F00;
+	transition: .2s all ease-in-out;
+}

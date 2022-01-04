@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+.table{
+	max-width:90%;
+	color:#000;
+	font-size:14px;
+	left:5%;
+	position:relative;
+	border:none;
+}
+.no{
+	display:none;
+}
+th{
+	text-align:center;
+}
+td{
+	text-align:center;
+}
+.edit{
+	transition: .2s all ease-in-out;
+	border:none;
+	background:none;
+	text-align:center;
+	}
+.acre{
+	transition: .2s all ease-in-out;
+	border:none;
+	background:none;
+	text-align:center;
+	}
+.baja{
+	transition: .2s all ease-in-out;
+	border:none;
+	background:none;
+	text-align:center;
+	}
+.elim{
+	transition: .2s all ease-in-out;
+	border:none;
+	background:none;
+	text-align:center;
+	}
+
+.icon-edit:hover{
+	color:#03F;
+}
+.icon-thumbs-up:hover{
+	color:#0C0;
+}
+.icon-thumbs-down:hover{
+	color:#F00;
+}
+.icon-trash:hover{
+	color:#F00;
+}
+#caja_busqueda{
+	width: 40%;
+
+	border: 1px solid rgba(0,0,0,.5);
+}
+.form-busqueda{
+	position: relative;
+	left: 3%;
+}
+.icon-search{
+	color: #000;
+}
+h2{color:#F63;}

@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+h3{
+	text-align:center;
+}
+.perfil{
+	color:#000;
+	position:relative;
+	top:50px;
+	left:5%;
+	width:40%;
+}
+
+#gc{
+	float:right;
+	border:none;
+	cursor:pointer;
+	background-color:#F93;
+	transition: .2s all ease-in-out;
+	height:40px;
+	border-radius:8px;
+	color:#000;
+	margin-right:5%;
+}
+#gc:hover{
+	background-color:#F60;
+}
+.table{
+	position:relative;
+	top:20px;
+	max-width:90%;
+	color:#000;
+	font-size:14px;
+	left:5%;
+	border:none;
+}
+
+th{
+	text-align:center;
+}
+td{
+	text-align:center;
+}
+
+#gh{
+	border-color:#DEDEDE;
+	width:65%;
+}

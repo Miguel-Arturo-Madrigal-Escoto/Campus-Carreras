@@ -1,0 +1,36 @@
+.titulo{
+  position: relative;
+  top:90px;
+}
+.titulo h3{
+  text-align: center;
+  color: #f63;
+}
+.form{
+  position: relative;
+  top:150px;
+  left: 5%;
+}
+.form .icon-calendar{
+  color: blue;
+}
+#generacion{
+  color: #000;
+}
+.form p{
+  color: #000;
+}
+.generar{
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  background: #f63;
+  transition: .2s all ease-in-out;
+  display: block;
+  position: relative;
+  top:50px;
+}
+.generar:hover{
+  background: #f93;
+}

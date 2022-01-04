@@ -1,0 +1,33 @@
+
+.titulo{
+  text-align: center;
+  position: relative;
+  top:50px;
+}
+h2{
+  color: #F63;
+}
+.formulario{
+  position: relative;
+  top:50px;
+  left:5%;
+}
+input[name="titulo"], input[name="link"]{
+  width: 40%;
+  display: block;
+}
+input[name="modificarFecha"]{
+  transition: .2s all ease-in-out;
+  background: #f93;
+  padding: 9px;
+  width: 10%;
+  color: black;
+  border: none;
+  border-radius: 7px;
+}
+input[name="modificarFecha"]:hover{
+  background-color: #f63;
+}
+select{
+  color: #000;
+}

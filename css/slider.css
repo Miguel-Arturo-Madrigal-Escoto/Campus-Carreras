@@ -1,0 +1,91 @@
+.slideshow{
+	width:100%;
+	position:relative;
+	top:125px;
+}
+.slider li{
+	overflow: hidden;
+}
+.slider ul li{
+	width:100%;
+}
+.slider li img{
+	width:100%;
+}
+.slider .caption{
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	color:#ffffff;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+	z-index:1;
+	/*en forma de columna*/
+	flex-direction:column;
+	padding:15px 50px;
+}
+.slider .caption h1{
+	font-size:50px;
+}
+.slider .caption p{
+	font-size:20px;
+	margin-top:10px;
+	text-shadow: 2px 2px #000000;
+}
+h1{
+	text-shadow: 2px 2px #000000;
+}
+.pagination{
+	position:absolute;
+	top:102%;
+	color:#858585;
+	display:flex;
+	justify-content:center;
+	width:100%;
+}
+.pagination li{
+	color:#858585;
+	font-size:20px;
+	margin:2px 5px;
+	cursor:pointer;
+}
+.left, .right{
+	position:absolute;
+	top:0;
+	height:100%;
+	display:flex;
+	align-items:center;
+	color:#fff;
+	font-size:35px;
+	z-index:2;
+	cursor:pointer;
+}
+.left{
+	left:10px;
+}
+
+.right{
+	right:10px;
+}
+
+@media screen and (max-width: 600px){
+	.slider .caption p{
+		display: none;
+	}
+
+	.slider .caption h1{
+		font-size: 30px;
+	}
+
+	.left, .right{
+		font-size: 30px;
+	}
+
+	.slider li img{
+		width: 600px;
+	}
+}

@@ -1,0 +1,33 @@
+
+.titulo{
+  text-align: center;
+  position: relative;
+  top:80px;
+}
+h2{
+  color: #F63;
+}
+.formulario{
+  position: relative;
+  top:90px;
+  left:5%;
+}
+input[type="text"]{
+  width: 45%;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.formulario p{
+  color: black;
+}
+#asignar-btn{
+  transition: .2s all ease-in-out;
+  background: #f93;
+  padding: 9px;
+  width: 10%;
+  color: black;
+  border: none;
+  border-radius: 7px;
+}
+#asignar-btn:hover{
+  background-color: #f63;
+}

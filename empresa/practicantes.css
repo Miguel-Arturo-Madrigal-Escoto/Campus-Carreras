@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+h3{
+	text-align:center;
+}
+
+b{
+	margin:6px;
+	cursor:default;
+
+}
+
+.perfil{
+	position:relative;
+	top:60px;
+	left:5%;
+	justify-content:center;
+	color:#000;
+}
+
+.table{
+	position:relative;
+	top:20px;
+	max-width:90%;
+	color:#000;
+	font-size:14px;
+	left:5%;
+	border:none;
+}
+
+th{
+	text-align:center;
+}
+td{
+	text-align:center;
+}

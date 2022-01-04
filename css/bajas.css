@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+h3{
+	text-align:center;
+}
+
+b{
+	margin:6px;
+	cursor:default;
+
+}
+.table{
+	position:relative;
+	top:20px;
+	max-width:90%;
+	color:#000;
+	font-size:14px;
+	left:5%;
+	border:none;
+}
+
+tr{
+	text-align:center;
+}
+#caja_busqueda{
+	width: 40%;
+
+	border: 1px solid rgba(0,0,0,.5);
+}
+.form-busqueda{
+	position: relative;
+	left: 3%;
+}
+.icon-search{
+	color: #000;
+}
+h2{color:#F63;}
+.td{
+	background-color: #1273b0; color: #c4e7fd;
+}

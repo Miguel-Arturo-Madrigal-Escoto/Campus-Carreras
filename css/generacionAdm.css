@@ -1,0 +1,35 @@
+.table{
+  color:#000;
+  border:none;
+  position: relative;
+  left:5%;
+  width: 100%;
+}
+
+th{
+	text-align:center;
+	}
+#caja_busqueda{
+	width: 40%;
+  border: 1px solid rgba(0,0,0,.5);
+}
+.form-busqueda{
+	position: relative;
+	left: 3%;
+}
+.icon-search{
+	color: #000;
+}
+h2
+{
+  color:#F63;
+}
+.alumnoIn{
+  font-size: 14px;
+  display: inline;
+}
+.icon-eye{
+  color: #000;
+  font-size: 11px;
+  display: inline;
+}

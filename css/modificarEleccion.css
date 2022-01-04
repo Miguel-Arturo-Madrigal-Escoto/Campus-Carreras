@@ -1,0 +1,29 @@
+.titulo{
+  position: relative;
+  top:100px;
+}
+.titulo h2{
+  color: #f63;
+  text-align: center;
+}
+.form{
+  position: relative;
+  top:150px;
+  left:5%;
+}
+select{
+  color: rgba(0, 0, 0, 0.8);
+  width: 7%;
+}
+input[name="modificarEleccion"]{
+  transition: .2s all ease-in-out;
+  background-color:  #f93;
+  border: none;
+  color: #000;
+  padding: 8px;
+  border-radius: 7px;
+  width: 8%;
+}
+input[name="modificarEleccion"]:hover{
+  background-color: #f63;
+}
